@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>TUGAS SISDIG ADRIAN</title>
+    <link rel="icon" type="image/.png" href="led.png">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <header>
+      <p>
+        TUGAS SISTEM DIGITAL<br />
+        CONVERTER BINER KE SEVEN SEGMEN DISPLAY
+      </p>
+    </header>
+    <main>
+        <div class="SEGMEN">
+          <h3 style="color: #39ff14">DISPLAY</h3>
+          <span class="a" id="A"></span>
+          <br />
+          <span class="f" id="F"></span>
+          <span class="b" id="B"></span>
+          <br />
+          <span class="g" id="G"></span>
+          <br />
+          <span class="e" id="E"></span>
+          <span class="c" id="C"></span>
+          <br />
+          <span class="d" id="D"></span>
+        </div>
+        <div>
+          <table id="data">
+            <tr>
+              <th id="input" colspan="4">BINER</th>
+              <th id="output" colspan="7">SEVEN SEGMEN</th>
+            </tr>
+            <tr>
+              <td id="inputz">W</td>
+              <td id="inputx">X</td>
+              <td id="inpuy">Y</td>
+              <td id="inputz">Z</td>
+              <td>a</td>
+              <td>b</td>
+              <td>c</td>
+              <td>d</td>
+              <td>e</td>
+              <td>f</td>
+              <td>g</td>
+            </tr>
+            <tr>
+              <td class="input" id="inputW">-</td>
+              <td class="input" id="inputX">-</td>
+              <td class="input" id="inputY">-</td>
+              <td class="input" id="inputZ">-</td>
+              <td id="outputA">-</td>
+              <td id="outputB">-</td>
+              <td id="outputC">-</td>
+              <td id="outputD">-</td>
+              <td id="outputE">-</td>
+              <td id="outputF">-</td>
+              <td id="outputG">-</td>
+            </tr>
+          </table>
+        </div>
+        <div class="keypad">
+          <button onclick="inputNumber(1)">1</button>
+          <button onclick="inputNumber(2)">2</button>
+          <button onclick="inputNumber(3)">3</button>
+          <button onclick="inputNumber(4)">4</button>
+          <button onclick="inputNumber(5)">5</button>
+          <button onclick="inputNumber(6)">6</button>
+          <button onclick="inputNumber(7)">7</button>
+          <button onclick="inputNumber(8)">8</button>
+          <button onclick="inputNumber(9)">9</button>
+          <div class="empty-space"></div>
+          <button onclick="inputNumber(0)">0</button>
+          <div class="empty-space"></div>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+      <p>
+        NAMA : ADRIAN <br />
+        NIM : D121231047
+      </p>
+    </footer>
+  </body>
+</html>
